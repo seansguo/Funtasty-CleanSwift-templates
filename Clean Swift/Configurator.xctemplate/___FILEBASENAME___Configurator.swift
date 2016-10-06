@@ -12,7 +12,7 @@ import UIKit
 
 extension ___FILEBASENAMEASIDENTIFIER___ViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        router.passDataToNextScene(segue)
+        router.passDataToNextScene(segue: segue)
     }
 }
 
