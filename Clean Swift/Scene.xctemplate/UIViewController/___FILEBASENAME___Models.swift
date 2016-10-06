@@ -8,11 +8,16 @@
 
 import UIKit
 
-struct ___FILEBASENAMEASIDENTIFIER___Request {
-}
-
-struct ___FILEBASENAMEASIDENTIFIER___Response {
-}
-
-struct ___FILEBASENAMEASIDENTIFIER___ViewModel {
+struct ___FILEBASENAMEASIDENTIFIER___ {
+    struct FeatureX {
+        struct Request {
+            
+        }
+        struct Response {
+            
+        }
+        struct ViewModel {
+            
+        }
+    }
 }

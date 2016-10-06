@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterOutput: class {
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel)
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.FeatureX.ViewModel)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___InteractorOutput {
@@ -17,10 +17,10 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter: ___FILEBASENAMEASIDENTIFIER___Int
 
     // MARK: - Presentation logic
 
-    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___Response) {
+    func presentSomething(response: ___FILEBASENAMEASIDENTIFIER___.FeatureX.Response) {
         // NOTE: Format the response from the Interactor and pass the result back to the View Controller
 
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___ViewModel()
+        let viewModel = ___FILEBASENAMEASIDENTIFIER___.FeatureX.ViewModel()
         output?.displaySomething(viewModel)
     }
 }

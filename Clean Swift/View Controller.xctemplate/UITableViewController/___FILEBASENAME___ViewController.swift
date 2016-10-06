@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ___FILEBASENAMEASIDENTIFIER___ViewControllerOutput {
-    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___Request)
+    func doSomething(request: ___FILEBASENAMEASIDENTIFIER___.FeatureX.Request)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FILEBASENAMEASIDENTIFIER___PresenterOutput {
@@ -35,13 +35,13 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UITableViewController, ___FI
     func doSomethingOnLoad() {
         // NOTE: Ask the Interactor to do some work
 
-        let request = ___FILEBASENAMEASIDENTIFIER___Request()
+        let request = ___FILEBASENAMEASIDENTIFIER___.FeatureX.Request()
         output.doSomething(request)
     }
 
     // MARK: - Display logic
 
-    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___ViewModel) {
+    func displaySomething(viewModel: ___FILEBASENAMEASIDENTIFIER___.FeatureX.ViewModel) {
         // NOTE: Display the result from the Presenter
 
         // nameTextField.text = viewModel.name
