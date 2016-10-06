@@ -8,10 +8,19 @@
 
 import UIKit
 
-protocol ___FILEBASENAMEASIDENTIFIER___WorkerProtocol {
+protocol SomeWorkerProtocol {
 
     // MARK: - Business Logic
 
     func doSomeWork()
     
+}
+
+class ___FILEBASENAMEASIDENTIFIER___: SomeWorkerProtocol {
+    
+    // MARK: - Business Logic
+    
+    func doSomeWork() {
+        
+    }
 }
