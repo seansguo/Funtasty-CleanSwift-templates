@@ -16,7 +16,7 @@ protocol SomeWorkerProtocol {
     
 }
 
-class ___FILEBASENAMEASIDENTIFIER___: SomeWorkerProtocol {
+class ___FILEBASENAMEASIDENTIFIER___Worker: SomeWorkerProtocol {
     
     // MARK: - Business Logic
     
