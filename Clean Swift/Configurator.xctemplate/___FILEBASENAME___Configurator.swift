@@ -21,6 +21,7 @@ class ___FILEBASENAMEASIDENTIFIER___Configurator {
     // MARK: - Object lifecycle
 
     static let sharedInstance = ___FILEBASENAMEASIDENTIFIER___Configurator()
+    private init() {}
 
     // MARK: - Configuration
 
